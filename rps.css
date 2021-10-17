@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Asap;
+}
+body {
+   background-color: black;
+}
+header > h1{
+	background-color: white;
+    text-align: center;
+   
+    font-size: 30px;
+    font-weight: 800;
+    padding: 9px;
+}
+.score-board {
+	border: 3px solid white;
+	width: 180px;
+
+	margin: 20px auto;
+	color: white;
+	font-size: 50px;
+	position: relative;
+	text-align: center;
+
+}
+.badges {
+	background-color: rgb(201,18,18);
+	
+	font-size: 15px;
+
+}
+#user-label {
+	width: 40px;
+	text-align: center;
+	position: absolute;
+	top:20px;
+	left: -25px;
+}
+#computer-label {
+	width: 75px;
+	text-align: center;
+	position: absolute;
+	top: 20px;
+    right:-40px;
+}
+.result {
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	letter-spacing: 1.5px
+}
+.result > p {
+	font-size: 25px;
+}
+.choices {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    
+}
+.choice {
+	border: 2px solid white;
+	border-radius: 50%;
+	margin: 20px;
+	padding: 5px;
+}
+.move-message {
+	color: white;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+.green-glow {
+	border: 4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
+.red-glow {
+	border: 4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+.draw-glow {
+	border: 4px solid #464647;
+	box-shadow: 0 0 10px #25292b;
+}
